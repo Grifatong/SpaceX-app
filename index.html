@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Space X App</title>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <div class="logo-wrapper">
+          <img src="./assets/images/SpaceX-Logo.wine.svg" alt="" />
+        </div>
+        <ul>
+          <div class="nameAndSwitch" title="Show/Hide buttons">
+            <h2>Space</h2>
+            <label class="switch">
+              <input type="checkbox" id="spaceBtnsSwitch" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div id="spaceBtns">
+            <li id="all-launches">All Launches</li>
+            <li id="single-launch">Single Launch</li>
+            <li id="launch-year">Launch year</li>
+          </div>
+        </ul>
+        <ul>
+          <div class="nameAndSwitch" title="Show/Hide buttons">
+            <h2>Ships</h2>
+            <label class="switch">
+              <input type="checkbox" id="shipsBtnsSwitch" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div id="shipBtns">
+            <li id="all-ships">All Ships</li>
+            <li id="ship-name">Ship Name</li>
+            <li id="ship-type">Ship type</li>
+          </div>
+        </ul>
+        <div>
+          <ul>
+            <h2>Log out</h2>
+
+            <li id="login">Log out</li>
+          </ul>
+        </div>
+      </nav>
+      <header></header>
+      <div class="ispis"></div>
+    </main>
+  </body>
+</html>
